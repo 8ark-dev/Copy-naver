@@ -1,2 +1,2 @@
 # copy_naver
-1st simple project for improving my coding ability.
+Simple project using HTML/CSS/JS for improving my coding ability.

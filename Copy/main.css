@@ -86,17 +86,91 @@ table {
 }
 
 
+/*-------- header----------- */
+
 #header_content {
     width: 1200px;
 
     margin: 0 auto;
 }
 
+#search_logo, #search_btn, #search_input {
+    display: inline-block;
+}
+
+#header_stPage {
+    color : black;
+    text-decoration: none;
+}
+
+#header_jrNaver, #header_hpBean {
+    font-weight: bold;
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+
+#header_stPage:active, #header_stPage:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#header_stPage:hover {
+    text-decoration: underline;
+}
+
+#header_jrNaver:hover {
+    color: #FFBF00;
+}
+
+#header_hpBean:hover {
+    color: #298A08;
+}
+
 .header_menu {
     position: relative;
+
+    font-size: 12px;
     text-align: right;
+
+    
+    margin-top: 20px;
 }
 
 .search {
-    position: relative;
+    text-align: center;
+}
+
+
+/*-------------nav----------------*/
+
+#nav_content {
+    width: 1200px;
+
+    margin: 0 auto;
+
+
+}
+
+.id_life, .xid_life {
+    font-weight: bold;
+    margin: 6px;
+}
+
+.btn_seeMore {
+
+}
+
+.btn_filter {
+
+}
+
+.id_life, .id_life:visited , .id_life:active  {
+    color: #19ce60;
+    text-decoration: none;
+}
+
+.xid_life, .xid_life:visited, .xid_life:active {
+    color: black;
+    text-decoration: none;
 }

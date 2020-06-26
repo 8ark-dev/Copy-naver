@@ -39,6 +39,10 @@ time, mark, audio, video {
 
 }
 
+hr {
+    border-top: 1px #D8D8D8 solid;
+}
+
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, 
@@ -94,8 +98,14 @@ table {
     margin: 0 auto;
 }
 
-#search_logo, #search_btn, #search_input {
-    display: inline-block;
+.header_menu {
+    position: relative;
+
+    font-size: 12px;
+    text-align: right;
+
+    
+    margin-top: 20px;
 }
 
 #header_stPage {
@@ -108,7 +118,6 @@ table {
     color: #BDBDBD;
     text-decoration: none;
 }
-
 
 #header_stPage:active, #header_stPage:visited {
     color: black;
@@ -127,29 +136,84 @@ table {
     color: #298A08;
 }
 
-.header_menu {
-    position: relative;
-
-    font-size: 12px;
-    text-align: right;
-
-    
-    margin-top: 20px;
-}
 
 .search {
+    height: 140px;
+    margin-left: -220px;
     text-align: center;
 }
+
+#search_logo, #search_btn, #search_input {
+    height: 30px;
+    display: inline-block;
+}
+
+#search_logo {
+    position: relative;
+
+    top: 45px;
+
+    margin-right: 30px;
+
+    color:#19ce60;
+    text-decoration: none; 
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#search_input{
+    width: 700px;
+    height: 50px;
+
+    position: relative;
+
+    top: 40px;
+    
+    border: #19ce60 2px solid;
+    padding: 5px;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+#search_input:focus {
+    outline: none;
+}
+
+#search_btn {
+    position: relative;
+    
+    top:31px;
+
+    margin-left: -6px;
+
+    border: #19ce60 17px solid;
+    background-color: #19ce60;
+    color: white;
+
+    font-size: 15px;
+}
+
+
+#search_btn:hover {
+    cursor: default;
+}
+
+
 
 
 /*-------------nav----------------*/
 
 #nav_content {
     width: 1200px;
+    height: 40px;
 
     margin: 0 auto;
 
 
+    text-align: center;
+
+    cursor: default;
 }
 
 .id_life, .xid_life {
@@ -158,11 +222,14 @@ table {
 }
 
 .btn_seeMore {
-
+    cursor: pointer;
 }
 
 .btn_filter {
-
+    cursor: pointer;
+}
+#seeMore:hover {
+    text-decoration: underline;
 }
 
 .id_life, .id_life:visited , .id_life:active  {
@@ -173,4 +240,9 @@ table {
 .xid_life, .xid_life:visited, .xid_life:active {
     color: black;
     text-decoration: none;
+}
+
+div .id_life , div .xid_life {
+    margin-top: 10px;
+    display: inline-block;
 }

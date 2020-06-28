@@ -2,6 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="reset".css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="main.css">
         <title>NAVER</title>
     </head>
@@ -13,6 +16,7 @@
                 <a id = "header_jrNaver" href="https://jr.naver.com/" target="_self">쥬니어네이버</a>
                 <a id = "header_hpBean" href="https://happybean.naver.com/" target="_self">해피빈</a>
             </div>
+
             <div class="search">
                 <a id = "search_logo" href="https://naver.com" target="_self">NAVER</a>
                 <input id = "search_input" type="text">
@@ -39,18 +43,82 @@
                 <a class="xid_life" href="https://book.naver.com/" target="_self">책</a>
                 <a class="xid_life" href="https://comic.naver.com/index.nhn" target="_self">웹툰</a>
             </span>
+
             <span class="btn_seeMore">
                 <a id = "seeMore">더보기</a>
                 <span onclick="alert('더보기');">></span>
             </span>
+
             <span class="btn_filter">
                 <a>! 검색어 필터 설정이 필요합니다</a>
                 <span onclick="alert('필터');">></span>
             </span>
         </div>
         <hr>
+        <!--main 전체에 height를 주고 세로로 3:1정도로 나눠서 aside랑 구분-->
         <div id="main_content">
+            <span id = "main_box">
+                <!--홍보박스-->
+                <div id = "main_promote">
+                    <img src="main_promote.png" width="100%" height="100%" onclick="alert('main_promote');">
+                </div>
 
+                <!--연합뉴스-->
+                <div id = "main_cycleNews">
+                    <a id = "main_cycleNewsContent" href="https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y" target="_self"><strong>연합뉴스</strong> ＞</a>
+                    <a id = "main_breakingNews" href="https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=001&aid=0011708804&isYeonhapFlash=Y&rc=N" target="_self">3단계 거리두기 방안 시행…확산 수위 따라 일상생활도 '제한' </a> 
+                    
+                    <a id = "main_nvNews" href="https://news.naver.com/" target="_self">네이버뉴스 ·</a>
+                    <a id = "main_ett" href="http://entertain.naver.com/home" target="_self">연예</a>
+                    <a id = "main_spt" href="http://sports.news.naver.com/" target="_self">스포츠</a>
+                    <a id = "main_ec" href="https://news.naver.com/main/main.nhn?mode=LSD&mid=shm&sid1=101" target="_self">경제</a>
+                </div>
+
+                <!--뉴스스탠드-->
+                <div id = "main_newsStand">
+                    <a id = "main_newsStandLink" href="https://newsstand.naver.com/" target="_blank">뉴스스탠드 ＞</a>
+                    <a id = "main_subs_media" href="#">구독한 언론사</a>
+                    <a id = "main_full_media" href="#"> · 전체 언론사</a>
+
+                    <a id = "main_seeList">A</a>
+                    <a id = "main_seeImage">B</a>
+                    <a id = "main_setMedia" href="https://newsstand.naver.com/config.html" target="_blank">C</a>
+                </div>
+
+                <!--오늘 읽을만한 글-->
+                <div id = "main_todayArticle">
+
+                </div>
+
+                <!--본문-->
+                <div id = "main_article">
+                    
+                </div>
+            </span>
+            
+            <span id = "aside_box">
+                s
+                <!--로그인 박스-->
+                <div id = "aside_login">
+
+                </div>
+
+                <!--이슈, 날씨 등등-->
+                <div id = "aside_cycleInform">
+
+                </div>
+
+                <!--홍보-->
+                <div id = "aside_promote">
+
+                </div>
+
+                <!--쇼핑-->
+                <div id = "aside_shop">
+
+                </div>
+
+            </span>           
         </div>
     </body>
 </html>

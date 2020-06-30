@@ -75,6 +75,7 @@
 }
 
 #main_ett, #main_spt, #main_ec {
+    color: black;
     margin-left: 4px;
     font-weight: bold;
 }
@@ -141,4 +142,138 @@
     text-decoration: none;
     color: #848484;
     font-weight: bold;
+}
+
+#main_mediaLogo {
+    margin: 10px 100px 10px 30px;
+
+    border : 1px solid #D8D8D8;
+    height: 65px;
+}
+
+
+#mediaToday {
+    float: left;
+
+    background-image: url(mediaLogo/mediatoday.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    border-right: #D8D8D8 1px solid;
+    
+    width: 16.5%;
+    height: 65px;
+}
+
+#ohMyNews {
+    float: left;
+
+    background-image: url(mediaLogo/ohmynews.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    border-right: #D8D8D8 1px solid;
+    
+    width: 16.5%;
+    height: 65px;
+}
+
+#hanI {
+    float: left;
+
+    background-image: url(mediaLogo/hani.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    border-right: #D8D8D8 1px solid;
+    
+    width: 16.5%;
+    height: 65px;
+}
+
+#kyungHyang {
+    float: left;
+
+    background-image: url(mediaLogo/kyunghyang.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    border-right: #D8D8D8 1px solid;
+    
+    width: 16.5%;
+    height: 65px;
+}
+
+#pressian {
+    float: left;
+
+    background-image: url(mediaLogo/pressian.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    border-right: #D8D8D8 1px solid;
+    
+    width: 16.5%;
+    height: 65px;
+}
+
+#yonHap {
+    float: left;
+
+    background-image: url(mediaLogo/yonhap.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    
+    width: 16.5%;
+    height: 65px;
+}
+#mediaToday:hover, #hanI:hover, #yonHap:hover, #pressian:hover, #kyungHyang:hover, #ohMyNews:hover {
+    background-image: none;
+    background-color: #EFF8FB;
+    opacity: 60%;
+}
+
+#mediaToday:hover .mainBtn , #hanI:hover  .mainBtn, #yonHap:hover  .mainBtn, #pressian:hover  .mainBtn, #kyungHyang:hover  .mainBtn, #ohMyNews:hover .mainBtn{
+    visibility: visible;
+}
+
+
+.mainBtn {
+    visibility: hidden;
+}
+
+.mediaBtn_1, .mediaBtn_2 {
+
+    background-color: white;
+
+    border: 1px solid #D8D8D8;
+  
+    text-align: center;
+    text-decoration: none;
+  
+    display: inline-block;
+  
+    cursor: pointer;
+
+    margin-top: 20px;
+    
+    margin: 15px auto;
+
+    height: 30px;
+    
+}
+
+.mediaBtn_1 {
+    margin-left: 9px;
+}
+
+.mediaBtn_1:hover, .mediaBtn_2:hover {
+    border: 1px solid #848484;
 }

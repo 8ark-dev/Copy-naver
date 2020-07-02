@@ -1,0 +1,106 @@
+#main_todayArticle, #cat_todayArticle, #main_article, #main_article2, #movieArticle {
+    margin: 10px 100px 10px 30px;
+    padding: 15px 10px;
+}
+
+#todayArticle {    
+    margin: 10px 100px 10px 30px;
+    padding: 15px 10px;
+
+    height: 350px;
+}
+
+#leftArticle {
+
+    float: left;
+
+    width: 50%;
+    height: 350px;
+
+}
+
+#rightArticle {
+    
+    float: left;
+
+    width: 50%;
+    height: 350px;
+}
+
+#img_tdAt {
+    background-image: url('http://placehold.it/350x170');
+    background-repeat: no-repeat;
+    height: 170px;
+
+    margin-bottom: 20px;
+
+}
+#txt_tdAt {
+    padding-right: 20px;
+}
+
+
+#txt_tdAt_1 {
+
+    margin-bottom: 10px;
+
+    color:  #19ce60;
+
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#txt_tdAt_2 {
+
+    margin-bottom: 10px;
+
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#txt_tdAt_3 {
+
+    margin-bottom: 7px;
+
+    font-size: 13px;
+    
+    line-height: 22px;
+}
+
+#txt_tdAt_4 {
+    font-size: 12px;
+}
+
+
+
+#book_1, #book_2, #book_3 {
+    height: 100px;
+
+    margin-bottom: 15px;
+}
+
+#mainAt_1 {
+    margin-bottom: 20px;
+}
+
+#movieArticle {
+    height: 200px;
+}
+
+#mv_1, #mv_2, #mv_3 {
+
+    margin-bottom: 10px;
+
+    background-image: url('http://placehold.it/240x120');
+    background-repeat: no-repeat;
+
+    height: 120px;
+}
+
+#mvAt_1, #mvAt_2, #mvAt_3 {
+    float: left;
+
+
+    width: 250px;
+    height: 200px;
+}

@@ -7,17 +7,14 @@
 }
 
 #main_box {
-    width: 75%;
+
+    width: 830px;
     float: left;
-}
-#aside_box {
-    width: 25%;
-    float: right;
 }
 
 
 #main_promote {
-    margin: 10px 100px 10px 30px;
+    margin: 10px 30px 10px 30px;
 
     border: 1px #D8D8D8 solid ;
 }
@@ -28,11 +25,11 @@
 
 #main_cycleNews {
     background-color: #F2F2F2;
+    border: 1px #D8D8D8 solid ;
 
-    margin: 10px 100px 10px 30px;
+    margin: 10px 30px 10px 30px;
     padding: 15px 10px;
 
-    border: 1px #D8D8D8 solid ;
 
     font-size: 13px;
     
@@ -90,7 +87,7 @@
 }
 
 #main_newsStand {
-    margin: 10px 100px 10px 30px;
+    margin: 10px 30px 10px 30px;
     padding: 15px 10px;
 
     cursor: default;
@@ -145,7 +142,7 @@
 }
 
 #main_mediaLogo {
-    margin: 10px 100px 10px 30px;
+    margin: 10px 30px 10px 30px;
 
     border : 1px solid #D8D8D8;
     height: 65px;

@@ -1,10 +1,10 @@
 #main_todayArticle, #cat_todayArticle, #main_article, #main_article2, #movieArticle {
-    margin: 10px 100px 10px 30px;
+    margin: 10px 30px 10px 30px;
     padding: 15px 10px;
 }
 
 #todayArticle {    
-    margin: 10px 100px 10px 30px;
+    margin: 10px 30px 10px 30px;
     padding: 15px 10px;
 
     height: 350px;

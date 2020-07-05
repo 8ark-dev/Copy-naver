@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="main2.css">
+        <link rel="stylesheet" href="aside.css">
         <link rel="stylesheet" href="footer.css">
         <title>NAVER</title>
     </head>
@@ -375,25 +376,126 @@
             </span>
             
             <span id = "aside_box">
-                s
+            
                 <!--로그인 박스-->
                 <div id = "aside_login">
-
+                    <p id="loginTxt">네이버를 더 안전하고 편리하게 이용하세요</p>
+                    <div id="loginBtn"><a id="loginBtnTxt"><strong>NAVER</strong> 로그인</a></div>
+                    <a id="loginID">아이디</a>
+                    <a id="loginPW">· 비밀번호찾기</a>
+                    <a id="joinUs">회원가입</a>
                 </div>
 
                 <!--이슈, 날씨 등등-->
                 <div id = "aside_cycleInform">
-
+                    <a>[이슈] </a>
+                    <a>코로나바이러스감염증19 현황</a>
                 </div>
 
                 <!--홍보-->
                 <div id = "aside_promote">
-
+                    <img src="aside_promote.jpg" width="100%" height="100%" onclick="alert('aside_promote');">
                 </div>
 
                 <!--쇼핑-->
-                <div id = "aside_shop">
+                <div id = "aside_shoptxt">
+                    <a id="shoptxt_1">쇼핑</a>
+                    <a id="shoptxt_2">상품</a>
+                    <a id="shoptxt_3">쇼핑몰</a>
+                    <a id="shoptxt_4">MEN</a>
+                </div>
 
+                <div id = "aside_shop">
+                    <div id="shopLink">
+                        <a id="">G마켓</a>
+                        · 
+                        <a id="">옥션</a>
+                        · 
+                        <a id="">11번가</a>
+                        · 
+                        <a id="">위메프</a>
+                        · 
+                        <a id="">티몬</a>
+                        · 
+                        <a id="">이마트몰</a>
+                        · 
+                        <a id="">올리브영</a>
+                        · 
+                        <a id="">GS샵</a>
+                        · 
+                        <a id="">롯데i몰</a>
+                        · 
+                        <a id="">CJmall</a>
+                        · 
+                        <a id="">신세계몰</a>
+                        · 
+                        <a id="">롯데ON</a>
+                    </div>
+
+                    <div id="productSection">
+                        <div id="tpProdSwitch">
+                            <a id="tpProdCnt">1/19</a>
+                            <input class="shopBtn" type="button" value="<">
+                            <input class="shopBtn" type="button" value=">">
+                        </div>
+    
+                        <div id="product">
+                            <div id="product_1">
+                                <div id="product_1_img"></div>
+                                <a id="product_1_txt">바르고잤더니~<br>물미역머릿결!</a>
+                            </div>
+                            
+                            <div id="product_2">
+                                <div id="product_2_img"></div>
+                                <a id="product_2_txt">단돈10000원~<br>만원의행복이벤트</a>
+                            </div>
+                            
+                            <div id="product_3">
+                                <div id="product_3_img"></div>
+                                <a id="product_3_txt">SUMMER SALE<br>전상품 10% ↓</a>
+                            </div>
+                        </div>
+    
+                        <div id="btProdSwitch">
+                            <input class="shopBtn" type="button" value="<">
+                            <a id="btProdCnt">1/19</a>
+                            <input class="shopBtn" type="button" value=">">
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div id = "shoppingNews">
+                        <div id="tpNewsSwitch">
+                            <a id="tpNewsTxt">반갑다! 쇼핑뉴스</a>
+                            <a id="tpNewsCnt">1/9</a>
+                            <input class="shopBtn" type="button" value="<">
+                            <input class="shopBtn" type="button" value=">">
+                        </div>
+
+                        <div id="shopArticle">
+                            <div id="shop_1">
+                                <a>·</a>
+                                <a id="shop_1_brand">모어코코</a>
+                                <a id="shop_1_txt">여름맞이SALE 코코넛잼 30%</a>
+                            </div>
+
+                            
+                            <div id="shop_2">
+                                <a>·</a>
+                                <a id="shop_2_brand">발롱뷰티</a>
+                                <a id="shop_2_txt">할인할 때 사자! 마사지오일43%</a>
+                            </div>
+
+                            
+                            <div id="shop_3">
+                                <a>·</a>
+                                <a id="shop_3_brand">어메이즈미</a>
+                                <a id="shop_3_txt">데일리반팔티셔츠 1+1할인이벤트</a>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
             </span>           

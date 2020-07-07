@@ -1,0 +1,281 @@
+
+#main_content {
+    width: 1200px;
+    height: 2700px;
+
+    margin: 0 auto;
+}
+
+.hr_tag {
+
+    width: 768px;
+}
+
+#main_box {
+
+    width: 830px;
+    float: left;
+}
+
+
+#main_promote {
+    margin: 10px 30px 10px 30px;
+
+    border: 1px #D8D8D8 solid ;
+}
+
+#main_promote:hover {
+    cursor: pointer;
+}
+
+#main_cycleNews {
+    background-color: #F2F2F2;
+    border: 1px #D8D8D8 solid ;
+
+    margin: 10px 30px 10px 30px;
+    padding: 15px 10px;
+
+
+    font-size: 13px;
+    
+    cursor: default;
+    
+}
+
+#main_cycleNewsContent {
+    margin-left: 5px;
+    
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#main_cycleNewsContent:visited {
+    color: black;
+}
+
+#main_breakingNews {
+    margin-left: 5px;
+
+    text-decoration: none;
+}
+
+#main_breakingNews:hover {
+    text-decoration: underline;
+}
+
+#main_breakingNews:visited {
+    color:black;
+}
+
+
+#main_nvNews {
+    margin-left: 100px;
+
+    color: #0040FF;
+
+    font-weight: bold;
+}
+
+#main_ett, #main_spt, #main_ec {
+    color: black;
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+#main_nvNews, #main_ett, #main_spt, #main_ec {
+    text-decoration: none;
+    
+}
+
+#main_ett:visited, #main_spt:visited, #main_ec:visited {
+    color:black;
+}
+
+#main_newsStand {
+    margin: 10px 30px 10px 30px;
+    padding: 15px 10px;
+
+    cursor: default;
+
+    font-size: 14px;
+}
+
+#main_newsStandLink{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#main_subs_media, #main_full_media {
+    text-decoration: none;
+}
+
+#main_newsStandLink:visited {
+    color: black;
+}
+
+#main_subs_media {
+    color: gray;
+}
+
+#main_full_media {
+    color: black;
+    font-weight: bold;
+}
+
+#main_seeList {
+    margin-left: 390px;
+
+    
+    color:#848484;  
+    font-weight: bold;
+}
+
+#main_seeImage {
+    margin-left: 15px;
+
+    color:#0040FF;
+    font-weight: bold;
+}
+
+#main_setMedia {
+    margin-left: 15px;
+
+
+    text-decoration: none;
+    color: #848484;
+    font-weight: bold;
+}
+
+#main_mediaLogo {
+    margin: 10px 30px 10px 30px;
+
+    border : 1px solid #D8D8D8;
+    height: 65px;
+}
+
+
+#mediaToday {
+    float: left;
+
+    background-image: url(mediaLogo/mediatoday.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    border-right: #D8D8D8 1px solid;
+    
+    width: 16.5%;
+    height: 65px;
+}
+
+#ohMyNews {
+    float: left;
+
+    background-image: url(mediaLogo/ohmynews.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    border-right: #D8D8D8 1px solid;
+    
+    width: 16.5%;
+    height: 65px;
+}
+
+#hanI {
+    float: left;
+
+    background-image: url(mediaLogo/hani.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    border-right: #D8D8D8 1px solid;
+    
+    width: 16.5%;
+    height: 65px;
+}
+
+#kyungHyang {
+    float: left;
+
+    background-image: url(mediaLogo/kyunghyang.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    border-right: #D8D8D8 1px solid;
+    
+    width: 16.5%;
+    height: 65px;
+}
+
+#pressian {
+    float: left;
+
+    background-image: url(mediaLogo/pressian.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    border-right: #D8D8D8 1px solid;
+    
+    width: 16.5%;
+    height: 65px;
+}
+
+#yonHap {
+    float: left;
+
+    background-image: url(mediaLogo/yonhap.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 65px;
+    
+    
+    width: 16.5%;
+    height: 65px;
+}
+#mediaToday:hover, #hanI:hover, #yonHap:hover, #pressian:hover, #kyungHyang:hover, #ohMyNews:hover {
+    background-image: none;
+    background-color: #EFF8FB;
+    opacity: 60%;
+}
+
+#mediaToday:hover .mainBtn , #hanI:hover  .mainBtn, #yonHap:hover  .mainBtn, #pressian:hover  .mainBtn, #kyungHyang:hover  .mainBtn, #ohMyNews:hover .mainBtn{
+    visibility: visible;
+}
+
+
+.mainBtn {
+    visibility: hidden;
+}
+
+.mediaBtn_1, .mediaBtn_2 {
+
+    background-color: white;
+
+    border: 1px solid #D8D8D8;
+  
+    text-align: center;
+    text-decoration: none;
+  
+    display: inline-block;
+  
+    cursor: pointer;
+
+    margin-top: 20px;
+    
+    margin: 15px auto;
+
+    height: 30px;
+    
+}
+
+.mediaBtn_1 {
+    margin-left: 9px;
+}
+
+.mediaBtn_1:hover, .mediaBtn_2:hover {
+    border: 1px solid #848484;
+}

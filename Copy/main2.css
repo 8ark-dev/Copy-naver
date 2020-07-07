@@ -1,8 +1,10 @@
-#main_todayArticle, #cat_todayArticle, #main_article, #main_article2, #movieArticle {
+#main_todayArticle, #cat_todayArticle, .main_Article, .movieArticle {
     margin: 10px 30px 10px 30px;
     padding: 15px 10px;
 }
 
+
+/*오늘 읽을만한 글*/
 #todayArticle {    
     margin: 10px 30px 10px 30px;
     padding: 15px 10px;
@@ -34,6 +36,10 @@
     text-decoration: underline;
 }
 
+
+
+
+/*카테고리*/
 #cat_todayArticle {
     padding: 0px;
 
@@ -42,7 +48,6 @@
     border: 1px #D8D8D8 solid ;
 }
 
-
 .cat_today {
     float: left;
 
@@ -50,7 +55,7 @@
     height: 50px;
     
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
 
     text-align: center;
 
@@ -59,13 +64,22 @@
 
 }
 
-.cat_today:hover{
-    color: #19ce60;
+.cat_margin {margin-top: 17px; }
 
-    cursor: pointer;
-}
+/*일단 책문화가 선택된걸로 설정*/
+#cat_1 {background-color: #19ce60; color: white; box-shadow: 1px 1px 2px 2px gray;}
+
+#cat_1:hover{/*background-color: #19ce60; color: white;*/ cursor: pointer;}
+#cat_2:hover{color:#F7D358; cursor: pointer;}
+#cat_3:hover{color:#0080FF; cursor: pointer;}
+#cat_4:hover{color:#8904B1; cursor: pointer;}
+#cat_5:hover{color:#886A08; cursor: pointer;}
+#cat_6:hover{color:#3104B4; cursor: pointer;}
+#cat_7:hover{color:#61380B; cursor: pointer;}
+#cat_8:hover{color:#19ce60; cursor: pointer;}
 
 
+/*사진과 책 article*/
 #leftArticle {
 
     float: left;
@@ -84,7 +98,7 @@
 }
 
 #img_tdAt {
-    background-image: url('http://placehold.it/350x170');
+    background-image: url('./tdAt/img.PNG');
     background-repeat: no-repeat;
     height: 170px;
 
@@ -106,6 +120,9 @@
     font-size: 13px;
 }
 
+#txt_tdAt_1:hover, #txt_tdAt_3, #txt_tdAt_4 {cursor: pointer;}
+#txt_tdAt_2:hover {text-decoration: underline; cursor: pointer;}
+
 #txt_tdAt_2 {
 
     margin-bottom: 10px;
@@ -125,6 +142,15 @@
 
 #txt_tdAt_4 {
     font-size: 12px;
+}
+
+#book_1 p:hover , #book_2 p:hover , #book_3 p:hover {
+    cursor: pointer;
+}
+
+#book_1_2:hover, #book_2_2:hover, #book_3_2:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #book_1_1, #book_2_1, #book_3_1 {
@@ -160,32 +186,126 @@
     margin-bottom: 15px;
 }
 
-#mainAt_1 {
+
+
+
+/*본문*/
+.mainAt {
     margin-bottom: 20px;
 }
 
-#mainAt_1_1 {
+.mainAt_title {
 
+    margin-left: 180px;
+
+    color: #19ce60;
+
+    font-size: 14px;
+    font-weight: bold;
 }
 
-#movieArticle {
+.mainAt_subtitle {
+    margin-left: 180px;
+    margin-top: 8px;
+
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.mainAt_content {
+    margin-left: 180px;
+    margin-top: 8px;
+
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.mainAt_madeBy {
+    margin-left: 180px;
+    margin-top: 10px;
+
+    color: #585858;
+    font-size: 14px;
+}
+
+.mainAt_img {float: left; width: 165px; height: 110px; box-shadow: 1px 1px 2px 1px gray;}
+.mainAt_img:hover{cursor: pointer;}
+.mainAt_title, .mainAt_content, .mainAt_content, .mainAt_madeBy {cursor: pointer;}
+.mainAt_subtitle:hover {text-decoration: underline; cursor: pointer;}
+
+
+.movieArticle {
     height: 200px;
 }
 
-#mv_1, #mv_2, #mv_3 {
+
+.mv{
 
     margin-bottom: 10px;
-
-    background-image: url('http://placehold.it/240x120');
-    background-repeat: no-repeat;
-
+    width: 240px;
     height: 120px;
 }
 
-#mvAt_1, #mvAt_2, #mvAt_3 {
+#mv1 {
+    height: 120px;
+    background-image: url('./movie/mv1.PNG');
+    background-repeat: no-repeat;
+}
+#mv2 {
+    height: 120px;
+    background-image: url('./movie/mv2.PNG');
+    background-repeat: no-repeat;
+}
+#mv3 {
+    height: 120px;
+    background-image: url('./movie/mv3.PNG');
+    background-size: 240px 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#mv4 {
+    height: 120px;
+    background-image: url('./movie/mv4.PNG');
+    background-repeat: no-repeat;
+}
+#mv5 {
+    height: 120px;
+    background-image: url('./movie/mv5.PNG');
+    background-repeat: no-repeat;
+}
+#mv6 {
+    height: 120px;
+    background-image: url('./movie/mv6.PNG');
+    background-repeat: no-repeat;
+}
+
+.mvtxt_content {
+    font-weight: bold;
+    font-size: 13px;
+
+    line-height: 19px;
+}
+
+.mvtxt_content:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mvtxt_made {
+    margin-top: 7px;
+    font-size: 13px;
+}
+
+
+.mvAt{
     float: left;
 
 
     width: 250px;
     height: 200px;
+}
+
+.mvAt:hover {
+    cursor: pointer;
 }

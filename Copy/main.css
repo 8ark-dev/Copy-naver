@@ -6,6 +6,11 @@
     margin: 0 auto;
 }
 
+.hr_tag {
+
+    width: 768px;
+}
+
 #main_box {
 
     width: 830px;

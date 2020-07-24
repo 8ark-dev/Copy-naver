@@ -11,504 +11,697 @@
         <link rel="stylesheet" href="footer.css">
         <title>NAVER</title>
     </head>
-    <body>
-        <div id="header_content">
-            <div class="header_menu">
-                <a id = "header_stPage" href="https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=16690" target="_self">네이버를 시작페이지로 ></a>
-                <a> | </a>
-                <a id = "header_jrNaver" href="https://jr.naver.com/" target="_self">쥬니어네이버</a>
-                <a id = "header_hpBean" href="https://happybean.naver.com/" target="_self">해피빈</a>
+<body>
+    <div id="header_content">
+        <div class="header_menu">
+            <a id="header_stPage" href="https://help.naver.com/support/contents/contents.help?serviceNo=1074&amp;categoryNo=16690" target="_self">네이버를 시작페이지로 &gt;</a>
+            <a> | </a>
+            <a id="header_jrNaver" href="https://jr.naver.com/" target="_self">쥬니어네이버</a>
+            <a id="header_hpBean" href="https://happybean.naver.com/" target="_self">해피빈</a>
+        </div>
+
+        <div class="search">
+            <a id="search_logo" href="https://naver.com" target="_self">NAVER</a>
+            <input id="search_input" type="text">
+            <span id="search_btn" onclick="alert('검색');">검색</span>
+        </div>
+    </div>
+    <hr>
+    <div id="nav_content">
+        <span class="btn_link">
+            <a class="id_life" href="https://mail.naver.com" target="_self">메일</a>
+            <a class="id_life" href="https://section.cafe.naver.com/" target="_self">카페</a>
+            <a class="id_life" href="https://section.blog.naver.com/" target="_self">블로그</a>
+            <a class="id_life" href="https://kin.naver.com/" target="_self">지식iN</a>
+            <a class="id_life" href="https://shopping.naver.com/" target="_self">쇼핑</a>
+            <a class="id_life" href="https://order.pay.naver.com/home" target="_self">Pay</a>
+            <a class="id_life" href="https://tv.naver.com/" target="_self">▶ TV</a>
+            <a class="xid_life" href="https://dict.naver.com/" target="_self">사전</a>
+            <a class="xid_life" href="https://news.naver.com/" target="_self">뉴스</a>
+            <a class="xid_life" href="https://finance.naver.com/" target="_self">증권</a>
+            <a class="xid_life" href="https://land.naver.com/" target="_self">부동산</a>
+            <a class="xid_life" href="https://map.naver.com/v5/" target="_self">지도</a>
+            <a class="xid_life" href="https://movie.naver.com/" target="_self">영화</a>
+            <a class="xid_life" href="https://vibe.naver.com/about" target="_self">뮤직</a>
+            <a class="xid_life" href="https://book.naver.com/" target="_self">책</a>
+            <a class="xid_life" href="https://comic.naver.com/index.nhn" target="_self">웹툰</a>
+        </span>
+
+        <span class="btn_seeMore">
+            <a id="seeMore">더보기</a>
+            <span onclick="alert('더보기');">&gt;</span>
+        </span>
+
+        <span class="btn_filter">
+            <a>! 검색어 필터 설정이 필요합니다</a>
+            <span onclick="alert('필터');">&gt;</span>
+        </span>
+    </div>
+    <hr>
+    <!--main 전체에 height를 주고 세로로 3:1정도로 나눠서 aside랑 구분-->
+    <div id="main_content">
+        <span id="main_box">
+            <!--홍보박스-->
+            <div id="main_promote">
+                <img src="./promote/main_promote.png" width="100%" height="100%" onclick="alert('main_promote');">
             </div>
 
-            <div class="search">
-                <a id = "search_logo" href="https://naver.com" target="_self">NAVER</a>
-                <input id = "search_input" type="text">
-                <span id = "search_btn" onclick="alert('검색');">검색</span>
+            <!--연합뉴스-->
+            <div id="main_cycleNews">
+                <a id="main_cycleNewsContent" href="https://news.naver.com/main/list.nhn?mode=LPOD&amp;mid=sec&amp;sid1=001&amp;sid2=140&amp;oid=001&amp;isYeonhapFlash=Y" target="_self"><strong>연합뉴스</strong> ＞</a>
+                <a id="main_breakingNews" href="https://news.naver.com/main/read.nhn?mode=LPOD&amp;mid=sec&amp;oid=001&amp;aid=0011708804&amp;isYeonhapFlash=Y&amp;rc=N" target="_self">3단계 거리두기 방안 시행…확산 수위 따라 일상생활도 '제한' </a> 
+                
+                <a id="main_nvNews" href="https://news.naver.com/" target="_self">네이버뉴스 ·</a>
+                <a id="main_ett" href="http://entertain.naver.com/home" target="_self">연예</a>
+                <a id="main_spt" href="http://sports.news.naver.com/" target="_self">스포츠</a>
+                <a id="main_ec" href="https://news.naver.com/main/main.nhn?mode=LSD&amp;mid=shm&amp;sid1=101" target="_self">경제</a>
             </div>
-        </div>
-        <hr>
-        <div id="nav_content">
-            <span class="btn_link">
-                <a class="id_life" href="https://mail.naver.com" target="_self">메일</a>
-                <a class="id_life" href="https://section.cafe.naver.com/" target="_self">카페</a>
-                <a class="id_life" href="https://section.blog.naver.com/" target="_self">블로그</a>
-                <a class="id_life" href="https://kin.naver.com/" target="_self">지식iN</a>
-                <a class="id_life" href="https://shopping.naver.com/" target="_self">쇼핑</a>
-                <a class="id_life" href="https://order.pay.naver.com/home" target="_self">Pay</a>
-                <a class="id_life" href="https://tv.naver.com/" target="_self">▶ TV</a>
-                <a class="xid_life" href="https://dict.naver.com/" target="_self">사전</a>
-                <a class="xid_life" href="https://news.naver.com/" target="_self">뉴스</a>
-                <a class="xid_life" href="https://finance.naver.com/" target="_self">증권</a>
-                <a class="xid_life" href="https://land.naver.com/" target="_self">부동산</a>
-                <a class="xid_life" href="https://map.naver.com/v5/" target="_self">지도</a>
-                <a class="xid_life" href="https://movie.naver.com/" target="_self">영화</a>
-                <a class="xid_life" href="https://vibe.naver.com/about" target="_self">뮤직</a>
-                <a class="xid_life" href="https://book.naver.com/" target="_self">책</a>
-                <a class="xid_life" href="https://comic.naver.com/index.nhn" target="_self">웹툰</a>
-            </span>
 
-            <span class="btn_seeMore">
-                <a id = "seeMore">더보기</a>
-                <span onclick="alert('더보기');">></span>
-            </span>
+            <!--뉴스스탠드-->
+            <div id="main_newsStand">
+                <a id="main_newsStandLink" href="https://newsstand.naver.com/" target="_blank">뉴스스탠드 ＞</a>
+                <a id="main_subs_media" href="#">구독한 언론사</a>
+                <a id="main_full_media" href="#"> · 전체 언론사</a>
 
-            <span class="btn_filter">
-                <a>! 검색어 필터 설정이 필요합니다</a>
-                <span onclick="alert('필터');">></span>
-            </span>
-        </div>
-        <hr>
-        <!--main 전체에 height를 주고 세로로 3:1정도로 나눠서 aside랑 구분-->
-        <div id="main_content">
-            <span id = "main_box">
-                <!--홍보박스-->
-                <div id = "main_promote">
-                    <img src="./promote/main_promote.png" width="100%" height="100%" onclick="alert('main_promote');">
+                <a id="main_seeList">A</a>
+                <a id="main_seeImage">B</a>
+                <a id="main_setMedia" href="https://newsstand.naver.com/config.html" target="_blank">C</a>
+            </div>
+
+            <!--언론사들-->
+            <div id="main_mediaLogo">
+                <div id="logo_1st">
+                    <div id="mediaToday">
+                        <span class="mainBtn">
+                            <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
+                            <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
+                        </span>
+                    </div>
+                    <div id="ohMyNews">
+                        <span class="mainBtn">
+                            <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
+                            <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
+                        </span>
+                    </div>
+                    <div id="hanI">
+                        <span class="mainBtn">
+                            <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
+                            <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
+                        </span>
+                    </div>
+                    <div id="kyungHyang">
+                        <span class="mainBtn">
+                            <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
+                            <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
+                        </span>
+                    </div>
+                    <div id="pressian">
+                        <span class="mainBtn">
+                            <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
+                            <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
+                        </span>
+                    </div>
+                    <div id="yonHap">
+                        <span class="mainBtn">
+                            <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
+                            <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
+                        </span>
+                    </div>
+                </div> <!--
+                <div>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
                 </div>
-
-                <!--연합뉴스-->
-                <div id = "main_cycleNews">
-                    <a id = "main_cycleNewsContent" href="https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y" target="_self"><strong>연합뉴스</strong> ＞</a>
-                    <a id = "main_breakingNews" href="https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=001&aid=0011708804&isYeonhapFlash=Y&rc=N" target="_self">3단계 거리두기 방안 시행…확산 수위 따라 일상생활도 '제한' </a> 
-                    
-                    <a id = "main_nvNews" href="https://news.naver.com/" target="_self">네이버뉴스 ·</a>
-                    <a id = "main_ett" href="http://entertain.naver.com/home" target="_self">연예</a>
-                    <a id = "main_spt" href="http://sports.news.naver.com/" target="_self">스포츠</a>
-                    <a id = "main_ec" href="https://news.naver.com/main/main.nhn?mode=LSD&mid=shm&sid1=101" target="_self">경제</a>
+                <div>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
                 </div>
+                <div>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                    <span class="media"></span>
+                </div> -->
+            </div>
 
-                <!--뉴스스탠드-->
-                <div id = "main_newsStand">
-                    <a id = "main_newsStandLink" href="https://newsstand.naver.com/" target="_blank">뉴스스탠드 ＞</a>
-                    <a id = "main_subs_media" href="#">구독한 언론사</a>
-                    <a id = "main_full_media" href="#"> · 전체 언론사</a>
+            <!--오늘 읽을만한 글-->
+            <div id="main_todayArticle">
+                <a id="main_todayArticle_txt_1">오늘 읽을만한 글</a>
+                <a id="main_todayArticle_txt_2">주제별로 분류된 다양한 글 모음</a>
+                <a id="main_todayArticle_txt_3">2,512</a>
+                <a id="main_todayArticle_txt_4">개의 글  |</a>
+                <a id="main_todayArticle_txt_5">  관심주제 설정</a>
+            </div>
+            <div id="cat_todayArticle">
+                <div class="cat_today" id="cat_1"><p class="cat_margin">책문화</p></div>
+                <div class="cat_today" id="cat_2"><p class="cat_margin">부모i</p></div>
+                <div class="cat_today" id="cat_3"><p class="cat_margin">법률</p></div>
+                <div class="cat_today" id="cat_4"><p class="cat_margin">패션시티</p></div>
+                <div class="cat_today" id="cat_5"><p class="cat_margin">동물공감</p></div>
+                <div class="cat_today" id="cat_6"><p class="cat_margin">디자인</p></div>
+                <div class="cat_today" id="cat_7"><p class="cat_margin">중국</p></div>
+                <div class="cat_today" id="cat_8"><p class="cat_margin">FARM</p></div>
+            </div>
 
-                    <a id = "main_seeList">A</a>
-                    <a id = "main_seeImage">B</a>
-                    <a id = "main_setMedia" href="https://newsstand.naver.com/config.html" target="_blank">C</a>
-                </div>
-
-                <!--언론사들-->
-                <div id = "main_mediaLogo">
-                    <div id = "logo_1st">
-                        <div id="mediaToday">
-                            <span class="mainBtn">
-                                <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
-                                <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
-                            </span>
-                        </div>
-                        <div id="ohMyNews">
-                            <span class="mainBtn">
-                                <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
-                                <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
-                            </span>
-                        </div>
-                        <div id="hanI">
-                            <span class="mainBtn">
-                                <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
-                                <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
-                            </span>
-                        </div>
-                        <div id="kyungHyang">
-                            <span class="mainBtn">
-                                <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
-                                <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
-                            </span>
-                        </div>
-                        <div id="pressian">
-                            <span class="mainBtn">
-                                <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
-                                <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
-                            </span>
-                        </div>
-                        <div id="yonHap">
-                            <span class="mainBtn">
-                                <input class="mediaBtn_1" type="button" value="구독" onclick="alert('subscribe');">
-                                <input class="mediaBtn_2" type="button" value="기사보기" onclick="alert('see_article');">
-                            </span>
-                        </div>
-                    </div> <!--
-                    <div>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
+            <!--사진, 책-->
+            <div id="todayArticle">        
+                <div id="leftArticle">
+                    <div id="img_tdAt"></div>
+                    <div id="txt_tdAt"> <!--https://post.naver.com/my/series/detail.nhn?seriesNo=600054&memberNo=6495282-->
+                        <p id="txt_tdAt_1">출간 전 연재, 파울로 코엘료 '평화의 의미'</p>
+                        <p id="txt_tdAt_2">1회. 행복한 왕국을 다스리는 왕이 있었습니다</p>
+                        <p id="txt_tdAt_3">
+                            파울로 코엘료가 2003년 본인의 홈페이지만 공개했던 동화를 코로나로 인해 모두가 어려운 시기, 유럽의 부활절을 맞...
+                        </p>
+                        <p id="txt_tdAt_4">문학동네</p>
                     </div>
-                    <div>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                    </div>
-                    <div>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                        <span class="media"></span>
-                    </div> -->
-                </div>
-
-                <!--오늘 읽을만한 글-->
-                <div id = "main_todayArticle">
-                    <a id="main_todayArticle_txt_1">오늘 읽을만한 글</a>
-                    <a id="main_todayArticle_txt_2">주제별로 분류된 다양한 글 모음</a>
-                    <a id="main_todayArticle_txt_3" >2,512</a>
-                    <a id="main_todayArticle_txt_4">개의 글  |</a>
-                    <a id="main_todayArticle_txt_5">  관심주제 설정</a>
-                </div>
-                <div id = "cat_todayArticle">
-                    <div class="cat_today" id="cat_1"><p class="cat_margin">책문화</p></div>
-                    <div class="cat_today" id="cat_2"><p class="cat_margin">부모i</p></div>
-                    <div class="cat_today" id="cat_3"><p class="cat_margin">법률</p></div>
-                    <div class="cat_today" id="cat_4"><p class="cat_margin">패션시티</p></div>
-                    <div class="cat_today" id="cat_5"><p class="cat_margin">동물공감</p></div>
-                    <div class="cat_today" id="cat_6"><p class="cat_margin">디자인</p></div>
-                    <div class="cat_today" id="cat_7"><p class="cat_margin">중국</p></div>
-                    <div class="cat_today" id="cat_8"><p class="cat_margin">FARM</p></div>
-                </div>
-
-                <!--사진, 책-->
-                <div id="todayArticle">        
-                    <div id="leftArticle">
-                        <div id="img_tdAt"></div>
-                        <div id="txt_tdAt"> <!--https://post.naver.com/my/series/detail.nhn?seriesNo=600054&memberNo=6495282-->
-                            <p id="txt_tdAt_1">출간 전 연재, 파울로 코엘료 '평화의 의미'</p>
-                            <p id="txt_tdAt_2">1회. 행복한 왕국을 다스리는 왕이 있었습니다</p>
-                            <p id="txt_tdAt_3">
-                                파울로 코엘료가 2003년 본인의 홈페이지만 공개했던 동화를 코로나로 인해 모두가 어려운 시기, 유럽의 부활절을 맞...
-                            </p>
-                            <p id="txt_tdAt_4">문학동네</p>
-                        </div>
-                    </div>
-                    
-                    <div id="rightArticle">
-                        <div id="book_1"> <!--https://audioclip.naver.com/audiobooks/2B4E0DC476-->
-                            <img src="tdAt/book1.PNG" style="float: left;">
-                            <p id="book_1_1">NOW 하루 한 책 '게으른 게 아니라 충...</p>
-                            <p id="book_1_2">
-                                텅 빈 마음을 빵빵하게 채워줄<br>나만의 마음 충전법
-                            </p>
-                            <p id="book_1_3">오디오클립</p>
-                        </div>
-                        <div id="book_2"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28683476&memberNo=35799573-->
-                            <img src="tdAt/book2.PNG" style="float: left;">
-                            <p id="book_2_1">MD 추천 '다이어터' 외</p>
-                            <p id="book_2_2">
-                                입안에 군침 가득!<br>먹부심 채워주는 음식 만화 6
-                            </p>
-                            <p id="book_2_3">인터넷교보문고</p>
-                        </div>
-                        <div id="book_3"> <!--https://openlectures.naver.com/contents?contentsId=143636&rid=253-->
-                            <img src="tdAt/book3.PNG" style="float: left;">
-                            <p id="book_3_1">열린연단 에세이</p>
-                            <p id="book_3_2">
-                                민주주의 (연구) 패러다임 변화<br> : 이행과 공고화에서 퇴행으로
-                            </P>
-                            <p id="book_3_3">최장집 고려대 명예교수</p>
-                        </div>
-                    </div>
-                </div>
-
-                <hr class="hr_tag">
-                <!--본문-->
-                <div class = "main_Article">
-                    
-                    <div class="mainAt">
-                        <img src="./mainAt/at1.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28677947&memberNo=49123625-->
-                            <p class="mainAt_title">윤고은의 EBS 북카페</p>
-                            <p class="mainAt_subtitle">나를 나답게 살게 하는 것</p>
-                            <p class="mainAt_content">나의 마음이 향하는 것들로 완성한 나만의 취향 지도 안에서 나는 쉽게 행복에 도착한다.<br>
-                            서둘러야겠네요 ⓒ danielgold, 출처 Unsplash "빨래, 좋아하세요?" 라는 질문... 좀 뜬금...</p>
-                            <p class="mainAt_madeBy">윤고은의 EBS 북카페 · 6일 전</p>
-                    </div>
-
-                    <div class="mainAt">
-                        <img src="./mainAt/at2.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28514921&memberNo=49123625-->
-                            <p class="mainAt_title">윤고은의 EBS 북카페</p>
-                            <p class="mainAt_subtitle">시간을 들여야 보이는 어떤 것</p>
-                            <p class="mainAt_content">아무리 위대한 그림도, 시간을 들여 천천히 볼 생각이 없는 사람에게는 다가가지 않는다.<br>
-                            보이는게 다는 아니니까 ⓒ johanmouchet, 출처 Unsplash 레오나르도 다빈치의 [모나...</p>
-                            <p class="mainAt_madeBy">윤고은의 EBS 북카페 · 3주일 전</p>
-                    </div>
-
-                    <div class="mainAt">
-                        <img src="./mainAt/at3.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28703437&memberNo=41396138-->
-                            <p class="mainAt_title">책문화</p>
-                            <p class="mainAt_subtitle">시어머니가 몰래 신혼집 인테리어 바꾸고 한 말</p>
-                            <p class="mainAt_content">[나는 단호해지기로 결심했다] 타인에게 휘둘리지 않고 나를 지키는 관계 심리학저자는<br>
-                            자신의 경험과 더불어 자신이 치유한 수십만 명의 사람들의 진료 기록을 바탕으로 단호...</p>
-                            <p class="mainAt_madeBy">리딩타임 · 4일 전</p>
-                    </div>
-
-                    <div class="mainAt">
-                        <img src="./mainAt/at4.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28695529&memberNo=1524636-->
-                            <p class="mainAt_title">책문화</p>
-                            <p class="mainAt_subtitle">내 옆에 있는 친구, 믿어도 될까?</p>
-                            <p class="mainAt_content">남편의 갑작스러운 죽음 이후 7세 아들과 단둘이 남게 된 테스. 하루하루 아들과 함께 눈물<br>
-                            로 지새우던 어느 날, 사별 전문 상담사 셸리가 찾아왔다. 그녀는 뭔가 달랐다. 테스가 어...</p>
-                            <p class="mainAt_madeBy">북로드 · 5일 전</p>
-                    </div>
-
-                    <div class="mainAt">
-                        <img src="./mainAt/at5.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28668574&memberNo=43521146-->
-                            <p class="mainAt_title">책수다</p>
-                            <p class="mainAt_subtitle">남자 사귈 때 하는 행동 중 제일 부질없다는 '이것'</p>
-                            <p class="mainAt_content">내가 인생의 중심이 되어 쓰러지지 않는 한, 나쁜 일은 반드시 지나간다. 다른 사람의 마음<br>
-                            에 들고자 애쓰기보다 '내 곁을 지켜주는 사람'을 한번 더 돌아보고, 큰일을 '사소한 일로...</p>
-                            <p class="mainAt_madeBy">책방구 · 6일 전</p>
-                    </div>
-
-
                 </div>
                 
-                <hr class="hr_tag">
-
-                <div class="movieArticle">
-                    <div class="mvAt">
-                        <div class="mv" id="mv1"></div> <!--https://tv.naver.com/v/14552637-->
-                        <p class="mvtxt_content">'벽돌책 미식회' 편집자가 말하는 제프리<br>
-                        웨스트의 '스케일' 맛있게 읽기</p>
-                        <p class="mvtxt_made">김영사TV · 1주일 전</p>
+                <div id="rightArticle">
+                    <div id="book_1"> <!--https://audioclip.naver.com/audiobooks/2B4E0DC476-->
+                        <img src="tdAt/book1.PNG" style="float: left;">
+                        <p id="book_1_1">NOW 하루 한 책 '게으른 게 아니라 충...</p>
+                        <p id="book_1_2">
+                            텅 빈 마음을 빵빵하게 채워줄<br>나만의 마음 충전법
+                        </p>
+                        <p id="book_1_3">오디오클립</p>
                     </div>
-
-                    <div class="mvAt">
-                        <div class="mv" id="mv2"></div> <!--https://tv.naver.com/v/14523593-->
-                        <p class="mvtxt_content">'팀장 클래스' 랜선 근무 시대에 팀장이<br>
-                        해야 할 역할에 관하여</p>
-                        <p class="mvtxt_made">쌤앤파커스TV · 1주일 전</p>
+                    <div id="book_2"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28683476&memberNo=35799573-->
+                        <img src="tdAt/book2.PNG" style="float: left;">
+                        <p id="book_2_1">MD 추천 '다이어터' 외</p>
+                        <p id="book_2_2">
+                            입안에 군침 가득!<br>먹부심 채워주는 음식 만화 6
+                        </p>
+                        <p id="book_2_3">인터넷교보문고</p>
                     </div>
-
-                    <div class="mvAt">
-                        <div class="mv" id="mv3"></div> <!--https://tv.naver.com/v/13053070-->
-                        <p class="mvtxt_content">'남은 생은 일하지 않습니다' 또 다른 나<br>
-                        를 깨우는 '일상 새로 고침' 안내서</p>
-                        <p class="mvtxt_made">책 소개 영상(북트레일러) · 3개월 전</p>
+                    <div id="book_3"> <!--https://openlectures.naver.com/contents?contentsId=143636&rid=253-->
+                        <img src="tdAt/book3.PNG" style="float: left;">
+                        <p id="book_3_1">열린연단 에세이</p>
+                        <p id="book_3_2">
+                            민주주의 (연구) 패러다임 변화<br> : 이행과 공고화에서 퇴행으로
+                        </p>
+                        <p id="book_3_3">최장집 고려대 명예교수</p>
                     </div>
-
                 </div>
+            </div>
+
+            <hr class="hr_tag">
+            <!--본문-->
+            <div class="main_Article">
                 
-                <hr style="margin:10px;">
-
-                <div class="main_Article">
-                    
-                    <div class="mainAt">
-                        <img src="./mainAt/at6.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28702304&memberNo=35125109-->
-                            <p class="mainAt_title">책문화</p>
-                            <p class="mainAt_subtitle">무모한 도전을 하는 사람들</p>
-                            <p class="mainAt_content">MBC 주말 예능 [놀면 뭐하니?]를 통해 유고스타, 유산슬, 라섹, 유르페우스, 유DJ뽕디스<br>
-                            파뤼, 닭터유에 이어 유두래곤까지 일명 '유(YOO)니버스'를 구축하고 있는 유재석. 이번에...</p>
-                            <p class="mainAt_madeBy">밝은세상 · 4일 전</p>
-                    </div>
-
-                    <div class="mainAt">
-                        <img src="./mainAt/at7.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28697341&memberNo=3482895-->
-                            <p class="mainAt_title">인문 MD 공현숙 추천</p>
-                            <p class="mainAt_subtitle">너는 널 위해 무엇을 해주니?</p>
-                            <p class="mainAt_content">얼마 전 인기리에 끝난 [슬기로운 의사생활]이라는 드라마를 열심히 봤습니다. 채널을 돌<br>
-                            리다가 무심결에 봤는데 재미있더라고요. 눈물이 왈칵 쏟아질 뻔한 장면들도 꽤 있었고...</p>
-                            <p class="mainAt_madeBy">인터파크 북DB · 5일 전</p>
-                    </div>
-
-                    <div class="mainAt">
-                        <img src="./mainAt/at8.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=16535153&memberNo=9831125-->
-                            <p class="mainAt_title">똑똑해지는 지식 강연</p>
-                            <p class="mainAt_subtitle">하얀 자코뱅과 검은 자코뱅, 프랑스의 두 얼굴</p>
-                            <p class="mainAt_content">인문학 크리에이터 | 한석구프랑스의 두 '얼굴' 20년 만에 2018년 러시아 월드컵에서 우승<br>
-                            을 차지한 프랑스 대표팀 구성원들의 면면을 보다 보면 새삼 '다양성'이 갖는 힘에 대해...</p>
-                            <p class="mainAt_madeBy">열린연단 · 1년 전</p>
-                    </div>
-
-                    <div class="mainAt">
-                        <img src="./mainAt/at9.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=16661884&memberNo=9831125-->
-                            <p class="mainAt_title">똑똑해지는 지식 강연</p>
-                            <p class="mainAt_subtitle">제국의 틈바구니에 끼여 있는 '제국' 안의 우리</p>
-                            <p class="mainAt_content">인문학 크리에이터 | 한석구아직도, '제국' 안의 우리 한참 본 궤도의 오르기 전 [미스터 선<br>
-                            샤인]이 마주했던 역사 왜곡 논란 - 더 정확히는 친일 논란 - 을 기억합니다. 결국 흥행...</p>
-                            <p class="mainAt_madeBy">열린연단 · 1년 전</p>
-                    </div>
-
-                    <div class="mainAt">
-                        <img src="./mainAt/at10.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28624811&memberNo=42552691-->
-                            <p class="mainAt_title">책 이벤트 X 저자 강연회</p>
-                            <p class="mainAt_subtitle">'인외 서커스' 출간 기념</p>
-                            <p class="mainAt_content">초인적인 능력의 흡혈귀 군단 vs 서커스 기술만으로 대항해야 하는 단원들 숨 막히는 살육<br>
-                            의 밤, 승자는 누구인가? 탈출 마술에 실패한 뒤 트라우마에 시달리는 마술사 란도. 경영...</p>
-                            <p class="mainAt_madeBy">니들북 · 1주일 전</p>
-                    </div>
-
-
+                <div class="mainAt">
+                    <img src="./mainAt/at1.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28677947&memberNo=49123625-->
+                        <p class="mainAt_title">윤고은의 EBS 북카페</p>
+                        <p class="mainAt_subtitle">나를 나답게 살게 하는 것</p>
+                        <p class="mainAt_content">나의 마음이 향하는 것들로 완성한 나만의 취향 지도 안에서 나는 쉽게 행복에 도착한다.<br>
+                        서둘러야겠네요 ⓒ danielgold, 출처 Unsplash "빨래, 좋아하세요?" 라는 질문... 좀 뜬금...</p>
+                        <p class="mainAt_madeBy">윤고은의 EBS 북카페 · 6일 전</p>
                 </div>
 
-                <hr style="margin:10px;">
-
-
-                <div class="movieArticle">
-                    <div class="mvAt">
-                        <div class="mv" id="mv4"></div> <!--https://tv.naver.com/v/14552637-->
-                        <p class="mvtxt_content">씻기는건가 씻김인건가 아리'님' 목욕<br>대작전</p>
-                        <p class="mvtxt_made">Arirang은 고양이들 내가 주인 · 3주일 전</p>
-                    </div>
-
-                    <div class="mvAt">
-                        <div class="mv" id="mv5"></div> <!--https://tv.naver.com/v/14523593-->
-                        <p class="mvtxt_content">평화를 체험하시오~ 돌아온 우애 '주디스<br>&퀴나'</p>
-                        <p class="mvtxt_made">TV 동물농장 · 2일 전</p>
-                    </div>
-
-                    <div class="mvAt">
-                        <div class="mv" id="mv6"></div> <!--https://tv.naver.com/v/13053070-->
-                        <p class="mvtxt_content">아니...형님이시라고요!? 두루미계 큰 <br>형님 Vlog</p>
-                        <p class="mvtxt_made">서울대공원 · 3일 전</p>
-                    </div>
-
+                <div class="mainAt">
+                    <img src="./mainAt/at2.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28514921&memberNo=49123625-->
+                        <p class="mainAt_title">윤고은의 EBS 북카페</p>
+                        <p class="mainAt_subtitle">시간을 들여야 보이는 어떤 것</p>
+                        <p class="mainAt_content">아무리 위대한 그림도, 시간을 들여 천천히 볼 생각이 없는 사람에게는 다가가지 않는다.<br>
+                        보이는게 다는 아니니까 ⓒ johanmouchet, 출처 Unsplash 레오나르도 다빈치의 [모나...</p>
+                        <p class="mainAt_madeBy">윤고은의 EBS 북카페 · 3주일 전</p>
                 </div>
-            </span>
+
+                <div class="mainAt">
+                    <img src="./mainAt/at3.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28703437&memberNo=41396138-->
+                        <p class="mainAt_title">책문화</p>
+                        <p class="mainAt_subtitle">시어머니가 몰래 신혼집 인테리어 바꾸고 한 말</p>
+                        <p class="mainAt_content">[나는 단호해지기로 결심했다] 타인에게 휘둘리지 않고 나를 지키는 관계 심리학저자는<br>
+                        자신의 경험과 더불어 자신이 치유한 수십만 명의 사람들의 진료 기록을 바탕으로 단호...</p>
+                        <p class="mainAt_madeBy">리딩타임 · 4일 전</p>
+                </div>
+
+                <div class="mainAt">
+                    <img src="./mainAt/at4.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28695529&memberNo=1524636-->
+                        <p class="mainAt_title">책문화</p>
+                        <p class="mainAt_subtitle">내 옆에 있는 친구, 믿어도 될까?</p>
+                        <p class="mainAt_content">남편의 갑작스러운 죽음 이후 7세 아들과 단둘이 남게 된 테스. 하루하루 아들과 함께 눈물<br>
+                        로 지새우던 어느 날, 사별 전문 상담사 셸리가 찾아왔다. 그녀는 뭔가 달랐다. 테스가 어...</p>
+                        <p class="mainAt_madeBy">북로드 · 5일 전</p>
+                </div>
+
+                <div class="mainAt">
+                    <img src="./mainAt/at5.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28668574&memberNo=43521146-->
+                        <p class="mainAt_title">책수다</p>
+                        <p class="mainAt_subtitle">남자 사귈 때 하는 행동 중 제일 부질없다는 '이것'</p>
+                        <p class="mainAt_content">내가 인생의 중심이 되어 쓰러지지 않는 한, 나쁜 일은 반드시 지나간다. 다른 사람의 마음<br>
+                        에 들고자 애쓰기보다 '내 곁을 지켜주는 사람'을 한번 더 돌아보고, 큰일을 '사소한 일로...</p>
+                        <p class="mainAt_madeBy">책방구 · 6일 전</p>
+                </div>
+
+
+            </div>
             
-            <span id = "aside_box">
+            <hr class="hr_tag">
+
+            <div class="movieArticle">
+                <div class="mvAt">
+                    <div class="mv" id="mv1"></div> <!--https://tv.naver.com/v/14552637-->
+                    <p class="mvtxt_content">'벽돌책 미식회' 편집자가 말하는 제프리<br>
+                    웨스트의 '스케일' 맛있게 읽기</p>
+                    <p class="mvtxt_made">김영사TV · 1주일 전</p>
+                </div>
+
+                <div class="mvAt">
+                    <div class="mv" id="mv2"></div> <!--https://tv.naver.com/v/14523593-->
+                    <p class="mvtxt_content">'팀장 클래스' 랜선 근무 시대에 팀장이<br>
+                    해야 할 역할에 관하여</p>
+                    <p class="mvtxt_made">쌤앤파커스TV · 1주일 전</p>
+                </div>
+
+                <div class="mvAt">
+                    <div class="mv" id="mv3"></div> <!--https://tv.naver.com/v/13053070-->
+                    <p class="mvtxt_content">'남은 생은 일하지 않습니다' 또 다른 나<br>
+                    를 깨우는 '일상 새로 고침' 안내서</p>
+                    <p class="mvtxt_made">책 소개 영상(북트레일러) · 3개월 전</p>
+                </div>
+
+            </div>
             
-                <!--로그인 박스-->
-                <div id = "aside_login">
-                    <p id="loginTxt">네이버를 더 안전하고 편리하게 이용하세요</p>
-                    <div id="loginBtn">
-                        <p id="loginBtnTxt"><strong>NAVER</strong> 로그인</p>
-                    </div>
-                    <p id="loginHelp">
-                        <a id="loginID">아이디</a>
-                        <a id="loginPW">· 비밀번호찾기</a>
-                        <a id="joinUs">회원가입</a>
+            <hr style="margin:10px;">
+
+            <div class="main_Article">
+                
+                <div class="mainAt">
+                    <img src="./mainAt/at6.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28702304&memberNo=35125109-->
+                        <p class="mainAt_title">책문화</p>
+                        <p class="mainAt_subtitle">무모한 도전을 하는 사람들</p>
+                        <p class="mainAt_content">MBC 주말 예능 [놀면 뭐하니?]를 통해 유고스타, 유산슬, 라섹, 유르페우스, 유DJ뽕디스<br>
+                        파뤼, 닭터유에 이어 유두래곤까지 일명 '유(YOO)니버스'를 구축하고 있는 유재석. 이번에...</p>
+                        <p class="mainAt_madeBy">밝은세상 · 4일 전</p>
+                </div>
+
+                <div class="mainAt">
+                    <img src="./mainAt/at7.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28697341&memberNo=3482895-->
+                        <p class="mainAt_title">인문 MD 공현숙 추천</p>
+                        <p class="mainAt_subtitle">너는 널 위해 무엇을 해주니?</p>
+                        <p class="mainAt_content">얼마 전 인기리에 끝난 [슬기로운 의사생활]이라는 드라마를 열심히 봤습니다. 채널을 돌<br>
+                        리다가 무심결에 봤는데 재미있더라고요. 눈물이 왈칵 쏟아질 뻔한 장면들도 꽤 있었고...</p>
+                        <p class="mainAt_madeBy">인터파크 북DB · 5일 전</p>
+                </div>
+
+                <div class="mainAt">
+                    <img src="./mainAt/at8.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=16535153&memberNo=9831125-->
+                        <p class="mainAt_title">똑똑해지는 지식 강연</p>
+                        <p class="mainAt_subtitle">하얀 자코뱅과 검은 자코뱅, 프랑스의 두 얼굴</p>
+                        <p class="mainAt_content">인문학 크리에이터 | 한석구프랑스의 두 '얼굴' 20년 만에 2018년 러시아 월드컵에서 우승<br>
+                        을 차지한 프랑스 대표팀 구성원들의 면면을 보다 보면 새삼 '다양성'이 갖는 힘에 대해...</p>
+                        <p class="mainAt_madeBy">열린연단 · 1년 전</p>
+                </div>
+
+                <div class="mainAt">
+                    <img src="./mainAt/at9.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=16661884&memberNo=9831125-->
+                        <p class="mainAt_title">똑똑해지는 지식 강연</p>
+                        <p class="mainAt_subtitle">제국의 틈바구니에 끼여 있는 '제국' 안의 우리</p>
+                        <p class="mainAt_content">인문학 크리에이터 | 한석구아직도, '제국' 안의 우리 한참 본 궤도의 오르기 전 [미스터 선<br>
+                        샤인]이 마주했던 역사 왜곡 논란 - 더 정확히는 친일 논란 - 을 기억합니다. 결국 흥행...</p>
+                        <p class="mainAt_madeBy">열린연단 · 1년 전</p>
+                </div>
+
+                <div class="mainAt">
+                    <img src="./mainAt/at10.PNG" class="mainAt_img" onclick="alert('mainAt')"> <!--https://post.naver.com/viewer/postView.nhn?volumeNo=28624811&memberNo=42552691-->
+                        <p class="mainAt_title">책 이벤트 X 저자 강연회</p>
+                        <p class="mainAt_subtitle">'인외 서커스' 출간 기념</p>
+                        <p class="mainAt_content">초인적인 능력의 흡혈귀 군단 vs 서커스 기술만으로 대항해야 하는 단원들 숨 막히는 살육<br>
+                        의 밤, 승자는 누구인가? 탈출 마술에 실패한 뒤 트라우마에 시달리는 마술사 란도. 경영...</p>
+                        <p class="mainAt_madeBy">니들북 · 1주일 전</p>
+                </div>
+
+
+            </div>
+
+            <hr style="margin:10px;">
+
+
+            <div class="movieArticle">
+                <div class="mvAt">
+                    <div class="mv" id="mv4"></div> <!--https://tv.naver.com/v/14552637-->
+                    <p class="mvtxt_content">씻기는건가 씻김인건가 아리'님' 목욕<br>대작전</p>
+                    <p class="mvtxt_made">Arirang은 고양이들 내가 주인 · 3주일 전</p>
+                </div>
+
+                <div class="mvAt">
+                    <div class="mv" id="mv5"></div> <!--https://tv.naver.com/v/14523593-->
+                    <p class="mvtxt_content">평화를 체험하시오~ 돌아온 우애 '주디스<br>&amp;퀴나'</p>
+                    <p class="mvtxt_made">TV 동물농장 · 2일 전</p>
+                </div>
+
+                <div class="mvAt">
+                    <div class="mv" id="mv6"></div> <!--https://tv.naver.com/v/13053070-->
+                    <p class="mvtxt_content">아니...형님이시라고요!? 두루미계 큰 <br>형님 Vlog</p>
+                    <p class="mvtxt_made">서울대공원 · 3일 전</p>
+                </div>
+
+            </div>
+        </span>
+        
+        <span id="aside_box">
+        
+            <!--로그인 박스-->
+            <div id="aside_login">
+                <p id="loginTxt">네이버를 더 안전하고 편리하게 이용하세요</p>
+                <div id="loginBtn">
+                    <p id="loginBtnTxt"><strong>NAVER</strong> 로그인</p>
+                </div>
+                <p id="loginHelp">
+                    <a id="loginID">아이디</a>
+                    <a id="loginPW">· 비밀번호찾기</a>
+                    <a id="joinUs">회원가입</a>
+                </p>
+            </div>
+
+            <!--이슈, 날씨 등등-->
+            <div id="aside_cycleInform">
+                <p id="cycleTxt">
+                <a id="cycle_1" href="https://search.naver.com/search.naver?sm=top_hty&amp;fbm=0&amp;ie=utf8&amp;query=%EC%BD%94%EB%A1%9C%EB%82%9819">[이슈] </a>
+                <a id="cycle_2" href="https://search.naver.com/search.naver?sm=top_hty&amp;fbm=0&amp;ie=utf8&amp;query=%EC%BD%94%EB%A1%9C%EB%82%9819">코로나바이러스감염증19 현황</a>
+               
+                <!--버튼 끌어옴-->
+                <input id="cycleBtn" class="switchBtn" type="button" value="<">
+                <input class="switchBtn" type="button" value=">">
+                </p>
+
+            </div>
+
+            <!--홍보-->
+            <div id="aside_promote">
+                <img src="./promote/aside_promote.jpg" width="100%" height="100%" onclick="alert('aside_promote');">
+            </div>
+
+            <!--쇼핑-->
+            <div id="aside_shoptxt">
+                <a id="shoptxt_1">쇼핑</a>
+                <a id="shoptxt_2">상품</a>
+                <a id="shoptxt_3">쇼핑몰</a>
+                <a id="shoptxt_4">MEN</a>
+            </div>
+
+            <div id="aside_shop">
+                <div id="shopLink">
+                    <p id="Link1">
+                        <a id="Gmarket" href="http://gmarket.co.kr" target="_blank">G마켓</a>
+                        · 
+                        <a id="Oction" href="http://gmarket.co.kr" target="_blank">옥션</a>
+                        · 
+                        <a id="11st" href="http://gmarket.co.kr" target="_blank">11번가</a>
+                        · 
+                        <a id="WemakeFriend" href="http://gmarket.co.kr" target="_blank">위메프</a>
+                        · 
+                        <a id="Tmon" href="http://gmarket.co.kr" target="_blank">티몬</a>
+                        · 
+                        <a id="EmartMall" href="http://gmarket.co.kr" target="_blank">이마트몰</a>
+
+                    </p>
+                    <p id="Link2">
+                        <a id="OliveYoung" href="http://gmarket.co.kr" target="_blank">올리브영</a>
+                        · 
+                        <a id="GSshop" href="http://gmarket.co.kr" target="_blank">GS샵</a>
+                        · 
+                        <a id="LotteImall" href="http://gmarket.co.kr" target="_blank">롯데i몰</a>
+                        · 
+                        <a id="CJmall" href="http://gmarket.co.kr" target="_blank">CJmall</a>
+                        · 
+                        <a id="SSGmall" href="http://gmarket.co.kr" target="_blank">신세계몰</a>
+                        · 
+                        <a id="LotteON" href="http://gmarket.co.kr" target="_blank">롯데ON</a>
+
                     </p>
                 </div>
 
-                <!--이슈, 날씨 등등-->
-                <div id = "aside_cycleInform">
-                    <p id="cycleTxt">
-                    <a id="cycle_1" href="https://search.naver.com/search.naver?sm=top_hty&fbm=0&ie=utf8&query=%EC%BD%94%EB%A1%9C%EB%82%9819">[이슈] </a>
-                    <a id="cycle_2" href="https://search.naver.com/search.naver?sm=top_hty&fbm=0&ie=utf8&query=%EC%BD%94%EB%A1%9C%EB%82%9819">코로나바이러스감염증19 현황</a>
-                   
-                    <!--버튼 끌어옴-->
-                    <input id="cycleBtn" class="shopBtn" type="button" value="<">
-                    <input class="shopBtn" type="button" value=">">
-                    </p>
-
-                </div>
-
-                <!--홍보-->
-                <div id = "aside_promote">
-                    <img src="./promote/aside_promote.jpg" width="100%" height="100%" onclick="alert('aside_promote');">
-                </div>
-
-                <!--쇼핑-->
-                <div id = "aside_shoptxt">
-                    <a id="shoptxt_1">쇼핑</a>
-                    <a id="shoptxt_2">상품</a>
-                    <a id="shoptxt_3">쇼핑몰</a>
-                    <a id="shoptxt_4">MEN</a>
-                </div>
-
-                <div id = "aside_shop">
-                    <div id="shopLink">
-                        <a id="">G마켓</a>
-                        · 
-                        <a id="">옥션</a>
-                        · 
-                        <a id="">11번가</a>
-                        · 
-                        <a id="">위메프</a>
-                        · 
-                        <a id="">티몬</a>
-                        · 
-                        <a id="">이마트몰</a>
-                        · 
-                        <a id="">올리브영</a>
-                        · 
-                        <a id="">GS샵</a>
-                        · 
-                        <a id="">롯데i몰</a>
-                        · 
-                        <a id="">CJmall</a>
-                        · 
-                        <a id="">신세계몰</a>
-                        · 
-                        <a id="">롯데ON</a>
+                <div id="productSection">
+                    <div id="tpProdSwitch">
+                        <a id="tpProdCnt">1/19</a>
+                        <input class="switchBtn" type="button" value="<">
+                        <input class="switchBtn" type="button" value=">">
                     </div>
 
-                    <div id="productSection">
-                        <div id="tpProdSwitch">
-                            <a id="tpProdCnt">1/19</a>
-                            <input class="shopBtn" type="button" value="<">
-                            <input class="shopBtn" type="button" value=">">
+                    <div class="product">
+                        <div class="productNum">
+                            <div class="productImg" id="product_1_img"></div>
+                            <a class="productTxt">누가 여기에<br>바다를 담았어?!</a>
                         </div>
-    
-                        <div id="product">
-                            <div id="product_1">
-                                <div id="product_1_img"></div>
-                                <a id="product_1_txt">바르고잤더니~<br>물미역머릿결!</a>
-                            </div>
-                            
-                            <div id="product_2">
-                                <div id="product_2_img"></div>
-                                <a id="product_2_txt">단돈10000원~<br>만원의행복이벤트</a>
-                            </div>
-                            
-                            <div id="product_3">
-                                <div id="product_3_img"></div>
-                                <a id="product_3_txt">SUMMER SALE<br>전상품 10% ↓</a>
-                            </div>
+                        
+                        <div class="productNum">
+                            <div class="productImg" id="product_2_img"></div>
+                            <a class="productTxt">단돈10000원~<br>만원의행복이벤트</a>
                         </div>
-    
-                        <div id="btProdSwitch">
-                            <input class="shopBtn" type="button" value="<">
-                            <a id="btProdCnt">1/19</a>
-                            <input class="shopBtn" type="button" value=">">
+                        
+                        <div class="productNum">
+                            <div class="productImg" id="product_3_img"></div>
+                            <a class="productTxt">SUMMER SALE<br>전상품 10% ↓</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product">
+                        <div class="productNum">
+                            <div class="productImg" id="product_4_img"></div>
+                            <a class="productTxt">누가 여기에<br>바다를 담았어?!</a>
+                        </div>
+                        
+                        <div class="productNum">
+                            <div class="productImg" id="product_5_img"></div>
+                            <a class="productTxt">단돈10000원~<br>만원의행복이벤트</a>
+                        </div>
+                        
+                        <div class="productNum">
+                            <div class="productImg" id="product_6_img"></div>
+                            <a class="productTxt">SUMMER SALE<br>전상품 10% ↓</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product">
+                        <div class="productNum">
+                            <div class="productImg" id="product_7_img"></div>
+                            <a class="productTxt">누가 여기에<br>바다를 담았어?!</a>
+                        </div>
+                        
+                        <div class="productNum">
+                            <div class="productImg" id="product_8_img"></div>
+                            <a class="productTxt">단돈10000원~<br>만원의행복이벤트</a>
+                        </div>
+                        
+                        <div class="productNum">
+                            <div class="productImg" id="product_9_img"></div>
+                            <a class="productTxt">SUMMER SALE<br>전상품 10% ↓</a>
                         </div>
                     </div>
 
-                    <hr>
-
-                    <div id = "shoppingNews">
-                        <div id="tpNewsSwitch">
-                            <a id="tpNewsTxt">반갑다! 쇼핑뉴스</a>
-                            <a id="tpNewsCnt">1/9</a>
-                            <input class="shopBtn" type="button" value="<">
-                            <input class="shopBtn" type="button" value=">">
+                    <div class="product">
+                        <div class="productNum">
+                            <div class="productImg" id="product_10_img"></div>
+                            <a class="productTxt">누가 여기에<br>바다를 담았어?!</a>
                         </div>
-
-                        <div id="shopArticle">
-                            <div id="shop_1">
-                                <a>·</a>
-                                <a id="shop_1_brand">모어코코</a>
-                                <a id="shop_1_txt">여름맞이SALE 코코넛잼 30%</a>
-                            </div>
-
-                            
-                            <div id="shop_2">
-                                <a>·</a>
-                                <a id="shop_2_brand">발롱뷰티</a>
-                                <a id="shop_2_txt">할인할 때 사자! 마사지오일43%</a>
-                            </div>
-
-                            
-                            <div id="shop_3">
-                                <a>·</a>
-                                <a id="shop_3_brand">어메이즈미</a>
-                                <a id="shop_3_txt">데일리반팔티셔츠 1+1할인이벤트</a>
-                            </div>
-
+                        
+                        <div class="productNum">
+                            <div class="productImg" id="product_11_img"></div>
+                            <a class="productTxt">단돈10000원~<br>만원의행복이벤트</a>
+                        </div>
+                        
+                        <div class="productNum">
+                            <div class="productImg" id="product_12_img"></div>
+                            <a class="productTxt">SUMMER SALE<br>전상품 10% ↓</a>
                         </div>
                     </div>
-                </div>
 
-            </span>           
+                    <div id="btProdSwitch">
+                        <input class="switchBtn" type="button" value="<">
+                        <a id="btProdCnt">1/19</a>
+                        <input class="switchBtn" type="button" value=">">
+                    </div>
+                </div>
+                
+                
+
+                <hr>
+
+                <div id="shoppingNews">
+                    <div id="tpNewsSwitch">
+                        <a id="tpNewsTxt">반갑다! 쇼핑뉴스</a>
+                        <a id="tpNewsCnt">1/9</a>
+
+                        <input class="switchBtn" type="button" value="<">
+                        <input class="switchBtn" type="button" value=">">
+                    </div>
+
+                    <div id="shopArticle">
+                        <div class="shop" id="shop_1">
+                            <p class="shopLine">
+                                <a class="point">·</a>
+                                <a class="shopBrand">모어코코</a>
+                                <a class="shopTxt">여름맞이SALE 코코넛잼 30%</a>
+                            </p>
+                        </div>
+
+                        
+                        <div class="shop" id="shop_2">
+                            <p class="shopLine">
+                                <a class="point">·</a>
+                                <a class="shopBrand">발롱뷰티</a>
+                                <a class="shopTxt">할인할 때 사자! 마사지오일43%</a>
+                            </p>
+                        </div>
+
+                        
+                        <div class="shop" id="shop_3">
+                            <p class="shopLine">
+                                <a class="point">·</a>
+                                <a class="shopBrand">어메이즈미</a>
+                                <a class="shopTxt">데일리반팔티셔츠 1+1할인이벤트</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </span>           
+    </div>
+
+    <div id="footer_content">
+        
+
+        <div id="footer_movie">
+            <div class="ftFloat">
+                <div class="ftMv" id="ftMv1"></div>
+                <div class="mvFloat">
+                    <p class="mvTitle">과기부X권익위XNIPA</p>
+                    <p class="mvSbtitle">솔 ˙ 직 챌린지 개최</p>
+                    <p class="mvText">슬기로운 코로나 생활<br>
+                    직접 개발하고 해결해보세요</p> 
+                </div>
+            </div>
+
+            <div class="ftFloat">
+                <div class="ftMv" id="ftMv2"></div> 
+                <div class="mvFloat">
+                    <p class="mvTitle">대한민국 정부</p>
+                    <p class="mvSbtitle">대한민국 동행세일</p>
+                    <p class="mvText">최대 40% 온라인 할인<br>
+                    6개 권역별 현장 판매</p>
+                </div>
+            </div>
+
+            <div class="ftFloat">
+                <div class="ftMv" id="ftMv3"></div>
+                <div class="mvFloat">
+                    <p class="mvTitle">부스트코스</p>
+                    <p class="mvSbtitle">웹 백엔드 무료 강좌</p>
+                    <p class="mvText">백엔드를 배우고 웹서비스를<br>
+                    직접 만들어 볼 수 있어요</p>
+                </div>
+            </div>
+
         </div>
 
-        <div id="footer_content">
+
+        <!--공지사항-->
+        <hr class="footer_hr">
+
+        <div id="footer_notice">
+            <p>
+                <a id="ftNt">공지사항</a>
+                <a id="ftNtTxt">네이버 '개인정보 처리방침' 변경에 대해 안내 말씀 드립니다.</a>
+                
+                <a id="ftNtSee">서비스 전체보기</a>
+                <a id="ftNtBtn">&gt;</a>
+            </p>
+        </div>
+
+
+        <hr class="footer_hr">
+
             
+        <div id="footer_help">
+            <!--creators..-->
+            <div id="hpTxt">
+                <p class="hpCate">
+                    <a class="hpWho">Creators</a>
+                    <a class="hpContent">크리에이터</a>
+                    <a class="hpInterval">|</a>
+                    <a class="hpContent">스몰비즈니스</a>
+                </p>
+                
+                <p class="hpCate">
+                    <a class="hpWho">Partners</a>
+                    <a class="hpContent">비즈니스 · 광고</a>
+                    <a class="hpInterval">|</a>
+                    <a class="hpContent">스토어 개설</a>
+                    <a class="hpInterval">|</a>
+                    <a class="hpContent">지역업체 등록</a>
+                </p>
+                
+                <p class="hpCate">
+                    <a class="hpWho">Developers</a>
+                    <a class="hpContent">네이버 개발자 센터</a>
+                    <a class="hpInterval">|</a>
+                    <a class="hpContent">오픈 API</a>
+                    <a class="hpInterval">|</a>
+                    <a class="hpContent">오픈소스</a>
+                    <a class="hpInterval">|</a>
+                    <a class="hpContent">네이버 D2</a>
+                    <a class="hpInterval">|</a>
+                    <a class="hpContent">네이버 D2SF</a>
+                    <a class="hpInterval">|</a>
+                    <a class="hpContent">네이버 랩스</a>
+                </p>
+            </div>
+
+            <!--웨일브라우저..-->
+            <div id="ftDown">
+                <div class="dwnTxt">
+                    <p class="dwnTitle">웨일 브라우저</p>
+                    <p class="dwnsbTitle">다운받기</p>
+                </div>
+                <div class="dwnImg" id="dwnImg1"></div>
+                
+                <div class="dwnTxt">
+                    <p class="dwnTitle">프로젝트 꽃</p>
+                    <p class="dwnsbTitle">바로가기</p>
+                </div>
+                <div class="dwnImg" id="dwnImg2"></div>
+            </div>
         </div>
-    </body>
-</html>
+
+        <hr class="footer_hr">
+
+        <!--회사소개-->
+        <div id="footer_intro">
+            <p>
+                <a class="intOffice">회사소개</a>
+                <a class="intInterval">|</a>
+                <a class="intOffice">인재채용</a>
+                <a class="intInterval">|</a>
+                <a class="intOffice">제휴제안</a>
+                <a class="intInterval">|</a>
+                <a class="intOffice">이용약관</a>
+                <a class="intInterval">|</a>
+                <a class="intOffice"> 개인정보처리방침</a>
+                <a class="intInterval">|</a>
+                <a class="intOffice">청소년보호정책</a>
+                <a class="intInterval">|</a>
+                <a class="intOffice">네이버 정책</a>
+                <a class="intInterval">|</a>
+                <a class="intOffice">고객센터</a>
+                <a class="intInterval">|</a>
+                <a id="NAVER">ⓒ NAVER Corp.</a>
+    
+            </p>
+        </div>
+    </div>
+
+</body></html>

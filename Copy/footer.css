@@ -4,6 +4,276 @@
     border-top: 1px solid #E6E6E6;
 
     margin-top: 50px;
+
+    padding-top: 20px;
     width: 100%;
-    height: 250px;
+    height: 450px;
+}
+
+.footer_hr {
+    width: 1130px;
+}
+
+/*footer 영상부*/
+
+#footer_movie {
+    height: 100px;
+     margin: 20px 50px 20px 310px;
+}
+
+.ftFloat {
+    float: left;
+
+    margin-left: 80px;
+}
+
+.ftMv, .mvFloat {
+    float: left;
+}
+
+.mvFloat {margin-left: 15px;}
+
+.mvFloat:hover {
+    cursor: pointer;
+}
+
+#ftMv1 {
+
+    background-image: url(./footerImg/img1.PNG);
+    background-repeat: no-repeat;
+
+    width: 160px;
+    height: 90px;
+}
+#ftMv2 {
+
+    background-image: url(./footerImg/img2.PNG);
+    background-repeat: no-repeat;
+
+    width: 160px;
+    height: 90px;
+}
+#ftMv3 {
+
+    background-image: url(./footerImg/img3.PNG);
+    background-repeat: no-repeat;
+
+    width: 160px;
+    height: 90px;
+}
+
+.mvTitle {
+    font-weight: bold;
+    font-size: 13px;
+
+    color: #19ce60;
+}
+
+.mvSbtitle {
+    margin-top: 8px;
+
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.mvText {
+    margin-top: 10px;
+
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.mvSbtitle:hover {text-decoration: underline;}
+
+
+
+/*공지사항*/
+#footer_notice {
+    height: 30px;
+    margin: 15px 50px 0px 310px;
+
+}
+
+#ftNt {
+    margin-left: 80px;
+
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#ftNtTxt {
+    margin-left: 20px;
+
+    font-size: 13px;
+
+    color: #585858;
+}
+
+#ftNtSee {
+    margin-left: 580px;
+
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#ftNtBtn {
+    margin-left: 10px;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    color: #585858;
+}
+
+#ftNt:hover, #ftNtTxt:hover, #ftNtSee:hover {cursor: pointer; text-decoration: underline;}
+#ftNtBtn:hover {cursor: pointer;}
+
+
+
+/*도움을 준*/
+
+#footer_help {
+    height: 100px;
+
+    margin: 10px 50px 0px 390px;
+
+}
+
+#ftDown {
+    float: left;
+
+    margin-top: 10px;
+    margin-left: 150px;
+
+    padding-top: 10px;
+
+    height: 90px;
+}
+
+#hpTxt {
+    margin-top: 10px;
+
+    float: left;
+    height: 100px;
+}
+
+
+.hpCate {
+    margin-bottom: 10px;
+}
+
+.hpWho {
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.hpContent {
+    margin-left: 20px;
+
+    color: #585858;
+    font-size: 13px;
+}
+
+.hpContent:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hpInterval {
+    font-size: 13px;
+    color: #D8D8D8;
+
+    margin-right: -20px;
+}
+
+.hpWho:hover {cursor: text;}
+
+
+
+/*다운로드*/
+
+#dwnImg1 {
+    background-image: url(./footerImg/whale.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 48px;
+    height: 48px;
+}
+
+#dwnImg2 {
+    background-image: url(./footerImg/flower.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 48px;
+    height: 48px;
+}
+
+.dwnTxt, .dwnImg {
+    float: left;
+}
+
+.dwnTxt {
+    margin: 5px 15px 7px 50px;
+}
+
+.dwnTitle {
+    margin-bottom: 5px;
+
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.dwnsbTitle {
+    font-size: 13px;
+
+    color: #585858;
+}
+
+.dwnsbTitle:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dwnImg:hover {
+    cursor: pointer;
+}
+
+
+/*회사소개*/
+
+#footer_intro {
+    height: 100px;
+
+    margin: 30px 50px 0px 370px;
+
+}
+
+.intOffice {
+    font-size: 13px;
+
+    margin-left: 20px;
+}
+
+#NAVER {
+    margin-left: 20px;
+
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.intOffice:hover, #NAVER:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.intInterval {
+    font-size: 13px;
+    color: #D8D8D8;
+
+    margin-right: -20px;
+    
 }
